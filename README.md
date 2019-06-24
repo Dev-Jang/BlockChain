@@ -6,12 +6,21 @@
 
 ## 테스트
 
-Postman 이용
+### Postman 이용
 
-3.17.0.10:5000/mine
+블록채굴: http://3.17.0.10:5000/mine
 
-3.17.0.10:5000/transaction/new
+거래(POST): http://3.17.0.10:5000/transactions/new
+body 부분
+      {
+        "sender" : "d4ee26eee15148ee92c6cd394edd974e",
+         "recipient" : "someone-other-address",
+         "amount" : 5
+      }
 
+거래 후 몇 번의 채굴 진행
+
+전체 체인: http://3.17.0.10:5000/chain
 
 <br>
 
