@@ -10,7 +10,6 @@
 
 1. 블록 채굴: http://3.17.0.10:5000/mine
 2. 거래(POST): http://3.17.0.10:5000/transactions/new
-
 body 부분(json형식)
 <pre><code>
 {
