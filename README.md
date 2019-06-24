@@ -13,11 +13,14 @@
 거래(POST): http://3.17.0.10:5000/transactions/new
 
 body 부분(json형식)
-      {
-        "sender" : "d4ee26eee15148ee92c6cd394edd974e",
-         "recipient" : "someone-other-address",
-         "amount" : 5
-      }
+
+"""
+{
+"sender" : "d4ee26eee15148ee92c6cd394edd974e",
+"recipient" : "someone-other-address",
+"amount" : 5
+}
+"""
 
 거래 후 몇 번의 채굴 진행
 
