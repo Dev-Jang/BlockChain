@@ -8,8 +8,8 @@ Developing a Block-Chain with Python.
 
 #### Using Postman
 
-1. Block mining: http://52.79.79.87:5000/mine
-2. Transaction(POST): http://52.79.79.87:5000/transactions/new
+1. Block mining: http://<serverIP>:5000/mine
+2. Transaction(POST): http://<serverIP>:5000/transactions/new
 
 <pre>body(json)<code>
 {
@@ -19,7 +19,7 @@ Developing a Block-Chain with Python.
 }
 </code></pre>
 3. Several mining proceedings after the transaction.
-4. Check the entire chain: http://52.79.79.87:5000/chain
+4. Check the entire chain: http://<serverIP>:5000/chain
 
 <br>
 
